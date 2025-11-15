@@ -16,13 +16,23 @@ const router = express.Router();
  *       302:
  *         description: Redirects to Google OAuth consent screen
  */
+// router.get(
+//   '/google',
+//   authLimiter,
+//   passport.authenticate('google', {
+//     scope: ['profile', 'email']
+//   })
+// );
+
+
 router.get(
   '/google',
-  authLimiter,
   passport.authenticate('google', {
-    scope: ['profile', 'email']
+    scope: ['profile', 'email'],
+    prompt: 'select_account'
   })
 );
+
 
 /**
  * @swagger
