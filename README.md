@@ -39,6 +39,21 @@ The backend is fully containerized, optimized for high-traffic ingestion, and de
 - PostgreSQL for relational storage  
 
 
+---
+
+## 🌐 Deployment URLs (Live)
+
+### 🔗 **Google Auth Endpoint**
+https://alter-office-qj21.onrender.com/api/auth/google
+
+### 📘 **API Documentation (Swagger UI)**
+https://alter-office-qj21.onrender.com/api-docs
+
+Both links are **live** and accessible for testing.
+
+---
+
+
 ## ⚙️ Instructions to Run the Project (Local Setup)
 
 ### **1️⃣ Clone the Repository**
@@ -146,19 +161,6 @@ Nodemon
 
 Render Deployment
 
----
-
-## 🌐 Deployment URLs (Live)
-
-### 🔗 **Google Auth Endpoint**
-https://alter-office-qj21.onrender.com/api/auth/google
-
-### 📘 **API Documentation (Swagger UI)**
-https://alter-office-qj21.onrender.com/api-docs
-
-Both links are **live** and accessible for testing.
-
----
 
 🙌 Thank You!
 
